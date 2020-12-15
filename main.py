@@ -18,7 +18,7 @@ def clear_data(driver):
 	btn.click()
 	wait.until_not(get_clear_browsing_button)
 
-PATH = "/Users/dode/Developer/Python/bagsh.mn/chromedriver"
+PATH = "(path to chromedriver)/chromedriver" #chromedriver.exe if you are running windows
 driver = webdriver.Chrome(PATH)
 
 
